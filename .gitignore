@@ -23,6 +23,7 @@ log
 npm-debug.log
 .DS_Store
 phantomjsdriver.log
+mise.toml
 
 generated-sources/
 
@@ -30,3 +31,4 @@ generated-sources/
 bin/
 
 maven-wrapper.jar
+

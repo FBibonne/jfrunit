@@ -47,6 +47,8 @@ public @interface EnableEvent {
 
     long period() default -1L;
 
+    EventSetting[] settings() default {};
+
     @Retention(RetentionPolicy.RUNTIME)
     @interface List {
         EnableEvent[] value();
